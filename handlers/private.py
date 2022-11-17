@@ -9,7 +9,7 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://telegra.ph/file/7016b36478a0b3680a0cc.jpg",
-                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\nᴄʀᴇᴀᴛᴏʀ🇦🇿  [𝓓𝓚𝓑 ϟ 𝓚𝓪𝔃𝓲𝓶𝓸𝓿𝓪](https://t.me/yerigetdeeeee)**"""),
+                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\nᴄʀᴇᴀᴛᴏʀ🇦🇿  [『𝑅𝐶』𝐃𝐄𝐕𝐎𝐋𝐀𝐏𝐄𝐑 ](https://t.me/Devolaperdi)**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -19,10 +19,10 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 ᴀsɪsᴛᴀɴ", url="https://t.me/SinirliBiri"
+                        "🔊 ᴀsɪsᴛᴀɴ", url="https://t.me/RCasistan"
                     ),
                     InlineKeyboardButton(
-                        "📚  sᴜᴘᴘᴏʀᴛ", url="https://t.me/DKBteam"
+                        "📚  sᴜᴘᴘᴏʀᴛ", url="https://t.me/narahat_respubilka"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 ᴇᴍʀʟᴇʀ" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "📚 ᴋᴀɴᴀʟ", url=f"https://t.me/Son_Misram22"
+                        "📚 ᴋᴀɴᴀʟ", url=f"https://t.me/narahat_respubilka"
                     )
                 ]
                 
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "ɢᴇʀɪ 🔄", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/yerigetdeeeee")
+                         "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/Devolaperdi")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/yerigetdeeeee")
+            "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/Devolaperdi")
         ]
       ]
      ))
@@ -96,7 +96,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/yerigetdeeeee")
+                         "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/Devolaperdi")
                  ],
                  [
                      InlineKeyboardButton(
@@ -114,7 +114,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/yerigetdeeeee")
+                         "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/Devolaperdi")
                  ],
                  [
                      InlineKeyboardButton(
@@ -127,7 +127,7 @@ async def admin(_, query: CallbackQuery):
 
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
-    await query.edit_message_text(f"""**Salam {query.from_user.mention} 🎵\nMən {bot}!\nSəsli sohbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yönətim yetki verib, Asistanı qrupa əlavə edin.\n\nᴄʀᴇᴀᴛᴏʀ🇦🇿  [ᴜ̈ʟᴠɪ ʜᴜ̈sᴇʏɴᴏᴠ](https://t.me/yerigetdeeeee)**""",
+    await query.edit_message_text(f"""**Salam {query.from_user.mention} 🎵\nMən {bot}!\nSəsli sohbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yönətim yetki verib, Asistanı qrupa əlavə edin.\n\nᴄʀᴇᴀᴛᴏʀ🇦🇿  [『𝑅𝐶』𝐃𝐄𝐕𝐎𝐋𝐀𝐏𝐄𝐑 ](https://t.me/Devolaperdi)**""",
          reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -137,10 +137,10 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 ᴀsɪsᴛᴀɴ", url="https://t.me/SinirliBiri"
+                        "🔊 ᴀsɪsᴛᴀɴ", url="https://t.me/RCasistan"
                     ),
                     InlineKeyboardButton(
-                        "📚 sᴜᴘᴘᴏʀᴛ", url="https://t.me/DKBteam"
+                        "📚 sᴜᴘᴘᴏʀᴛ", url="https://t.me/narahat_respubilka"
                     )
                 ],
                 [
@@ -148,7 +148,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🧩 ᴇᴍʀʟᴇʀ" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "📚 ᴋᴀɴᴀʟ", url=f"https://t.me/Son_Misram22"
+                        "📚 ᴋᴀɴᴀʟ", url=f"https://t.me/narahat_respubilka"
                     )
                 ]
                 
