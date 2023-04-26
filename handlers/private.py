@@ -9,17 +9,17 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://telegra.ph/file/7016b36478a0b3680a0cc.jpg",
-                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\nᴄʀᴇᴀᴛᴏʀ🇦🇿  [『𝑅𝐶』𝐃𝐄𝐕𝐎𝐋𝐀𝐏𝐄𝐑 ](https://t.me/Devolaperdi)**"""),
+                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\nᴄʀᴇᴀᴛᴏʀ🇦🇿  [ᴋx • 𝐇𝐀𝐒𝐁𝐔𝐋𝐋𝐀 #𝕭𝖊𝖍𝖊𝖒𝖔𝖙𝖍 🇷🇺⃟⃤ ](https://t.me/Hasbullahh)**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴍᴇɴɪ ǫʀᴜᴘᴀ ᴇʟᴀᴠᴇ ᴇᴛ ❱ ➕", url=f"https://t.me/RCmusici_bot?startgroup=true"
+                        "➕ ❰ ᴍᴇɴɪ ǫʀᴜᴘᴀ ᴇʟᴀᴠᴇ ᴇᴛ ❱ ➕", url=f"https://t.me/KrayzenMusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 ᴀsɪsᴛᴀɴ", url="https://t.me/RCasistan"
+                        "🔊 ᴀsɪsᴛᴀɴ", url="https://t.me/KrayzenAsistan"
                     ),
                     InlineKeyboardButton(
                         "📚  sᴜᴘᴘᴏʀᴛ", url="https://t.me/narahat_respubilka"
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 ᴇᴍʀʟᴇʀ" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "📚 ᴋᴀɴᴀʟ", url=f"https://t.me/narahat_respubilka"
+                        "📚 ᴋᴀɴᴀʟ", url=f"https://t.me/HasbullaBlog"
                     )
                 ]
                 
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "ɢᴇʀɪ 🔄", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/Devolaperdi")
+                         "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/Hasbullahh")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/Devolaperdi")
+            "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/Hasbullahh")
         ]
       ]
      ))
@@ -96,7 +96,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/Devolaperdi")
+                         "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/Hasbullahh")
                  ],
                  [
                      InlineKeyboardButton(
@@ -114,7 +114,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/Devolaperdi")
+                         "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/Hasbullahh")
                  ],
                  [
                      InlineKeyboardButton(
@@ -132,15 +132,15 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴍᴇɴɪ ǫʀᴜᴘᴀ ᴇʟᴀᴠᴇ ᴇʀ ❱ ➕", url=f"https://t.me/RCmusici_bot?startgroup=true"
+                        "➕ ❰ ᴍᴇɴɪ ǫʀᴜᴘᴀ ᴇʟᴀᴠᴇ ᴇʀ ❱ ➕", url=f"https://t.me/KrayzenMusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 ᴀsɪsᴛᴀɴ", url="https://t.me/RCasistan"
+                        "🔊 ᴀsɪsᴛᴀɴ", url="https://t.me/KrayzenAsistan"
                     ),
                     InlineKeyboardButton(
-                        "📚 sᴜᴘᴘᴏʀᴛ", url="https://t.me/narahat_respubilka"
+                        "📚 sᴜᴘᴘᴏʀᴛ", url="https://t.me/HasbullaBlog"
                     )
                 ],
                 [
@@ -148,7 +148,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🧩 ᴇᴍʀʟᴇʀ" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "📚 ᴋᴀɴᴀʟ", url=f"https://t.me/narahat_respubilka"
+                        "📚 ᴋᴀɴᴀʟ", url=f"https://t.me/HasbullaBlog"
                     )
                 ]
                 
